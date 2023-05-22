@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hacker Chat</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header">
+      <h2>Anonymous Chat Room</h2>
+    </div>
+    <div class="chat-messages" id="chat-messages">
+      <!-- Display messages here -->
+    </div>
+    <div class="chat-input">
+      <form action="post_message.php" method="post">
+       <input type="text" name="username" placeholder="Username" required>
+        <input type="text" name="message" placeholder="Message" required>
+        <input type="submit" value="Send">
+      </form>
+    </div>
+  </div>
+</body>
+</html>
